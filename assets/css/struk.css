@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'courier-new';
+	src: url('../fonts/courier-new.ttf');
+}
+.head{
+	font-family: 'courier-new';
+}
+body{
+        font-family: "Courier New", Courier, monospace;
+		font-size:16px;
+		margin:3px;
+		}
+		#laporan{
+		color:black;
+		padding:6px 2px;
+		}
+		#laporan table{
+		border-collapse: collapse;
+		font-size:12px;
+		}
+
+
+		#laporan table bp{
+		border:black;
+		}
+		.pagebreak{
+		visibility:visible;
+		page-break-after:always;
+		}
+		.garis{
+			border:solid 1px;
+		}
+		.nongaris{
+			border: none;
+		}
